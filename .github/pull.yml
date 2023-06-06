@@ -1,0 +1,12 @@
+version: "1"
+rules:
+  - base: master
+    upstream: brave:brave-release
+    mergeMethod: merge
+    mergeUnstable: false
+    assignees:
+      - EyeCantCU
+    reviewers:
+      - EyeCantCU
+    conflictReviewers:
+      - EyeCantCU
